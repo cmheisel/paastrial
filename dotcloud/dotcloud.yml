@@ -1,0 +1,16 @@
+worker:
+    type: python-worker
+    config:
+        python_version: v2.7
+    environment:
+        TWITTER_CONSUMER_KEY: setecastronomy
+        TWITTER_CONSUMER_SECRET: toomanysecrets
+        TWITTER_ACCESS_TOKEN: mynameismypassport
+        TWITTER_ACCESS_TOKEN_SECRET: verifyme
+        TWITTER_SCREEN_NAME: slatemaglite
+        WAIT_INTERVAL: 300
+        LOG_LEVEL: INFO
+        INSTANCE: stage
+
+data:
+  type: redis
